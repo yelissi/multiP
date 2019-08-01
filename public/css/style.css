@@ -1,0 +1,42 @@
+body {
+    background-color: #333;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    color: aqua;
+}
+
+.fas {
+    font-size: 4.5em;
+    color: yellow;
+    padding: 0.4em;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    margin: 3em;
+}
+
+button {
+    padding: 0.5em 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    background: yellow;
+    width: 12em;
+    border-radius: 2px;
+    border: none;
+}
+
+input[type=radio] {
+    display: block;
+    margin: 0 auto;
+}
+
+span {
+    display: inline-block;
+
+}

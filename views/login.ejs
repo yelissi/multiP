@@ -1,0 +1,38 @@
+<html>
+
+<title>Multiplayer Snake</title>
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/4821aab660.js"></script>
+
+
+
+<body>
+    <div style="text-align:center">
+
+        <br>
+        <br>
+        <br>
+        <h1>SERPENT MULTIJOUEUR</h1>
+        <div>
+            <h2> Choisissez votre avatar:</h2>
+            <form method="post" action="/play">
+                <label for="avtr"></label>
+                <span> <i class="fas fa-cat"> </i></i> <input type="radio" name="avatar" value="0"></span>
+                <span> <i class="fas fa-hippo"></i> <input type="radio" name="avatar" value="1"></span>
+                <span> <i class="fas fa-dove"></i> <input type="radio" name="avatar" value="2"></span>
+                <span> <i class="fas fa-dragon"></i> <input type="radio" name="avatar" value="3"></span>
+                <span> <i class="fas fa-frog"></i> <input type="radio" name="avatar" value="4"></span>
+
+        </div>
+        <h2> Veuillez entrer votre nom s'il vous plaît ! </h2>
+
+        <input type="text" placeholder="Enter votre nom ici...." name="snakeName" style="width: 500px; margin: 0 auto"
+            id="username" required />
+        <br>
+        <br>
+        <button type="submit">Commencer le jeu</button>
+        </form>
+    </div>
+</body>
+
+</html>
